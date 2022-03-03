@@ -1,0 +1,12 @@
+package com.blocks;
+
+public class StringEqual {
+
+	public static void main(String[] args) {
+		
+	String s1="hjhh";
+	String s2="\u0002";
+	String s3="\\";
+
+	}
+}

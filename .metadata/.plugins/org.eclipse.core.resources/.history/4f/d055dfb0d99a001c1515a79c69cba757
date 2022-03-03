@@ -1,0 +1,29 @@
+package com.blocks;
+
+public class Rectangle extends Shape {
+
+	@Override
+	void getColor() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void getFilled() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void SetColor() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void setFilled() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

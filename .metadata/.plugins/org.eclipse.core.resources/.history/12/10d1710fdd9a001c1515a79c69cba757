@@ -1,0 +1,32 @@
+package com.blocks;
+
+public class Circle extends Shape {
+
+	
+
+	@Override
+	void getColor() {
+		System.out.println("Circle geting color");
+	}
+
+	@Override
+	void getFilled() {
+		System.out.println("cicrcle is filling");
+		
+	}
+
+	@Override
+	void setColor() {
+		System.out.println("Setting the circle color");
+		
+	}
+
+	@Override
+	void setFilled() {
+		System.out.println("Fill the circle");
+		
+	}
+	
+
+
+}

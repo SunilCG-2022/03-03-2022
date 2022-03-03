@@ -1,0 +1,12 @@
+package com.cg.bankInheritance;
+
+public class MainBank {
+
+	public static void main(String[] args) {
+		Bank sbi=new Bank ();
+		sbi.readSbi;
+		sbi.getRateOfInterst();
+
+	}
+
+}

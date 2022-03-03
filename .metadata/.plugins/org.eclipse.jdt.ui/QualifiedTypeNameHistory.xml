@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.cg.corejavapractice.MathOperations"/>
+    <fullyQualifiedTypeName name="com.cg.corejavapractice.MathOperationsMain"/>
+    <fullyQualifiedTypeName name="com.cg.corejava.MathOperations"/>
+    <fullyQualifiedTypeName name="com.cg.averageheight.AverageHeight"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.cg.Iteminheritance.ItemCrud"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="com.blocks.Rectangle"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package com.cg.classwork;
+
+public class Staff extends Person {
+	String school;
+	double pay;
+
+	void readSchool() {
+		System.out.println("Enter the school of Staff : ");
+		school = sc.nextLine();
+		
+	}
+	void readPay() {
+		System.out.println("Enter the Pay of staff : ");
+		pay = sc.nextDouble(); 
+	}
+}

@@ -1,0 +1,29 @@
+package com.blocks;
+
+public class Rectangle extends Shape {
+	@Override
+	void getColor() {
+		System.out.println("The color of the rectangle");
+		
+	}
+
+	
+	void getFilled() {
+		System.out.println("rectangle is filled");
+		
+	}
+
+	@Override
+	void setColor() {
+		System.out.println("Set the color of rectangle");
+		
+	}
+
+	@Override
+	void setFilled() {
+		System.out.println("Fill the rectangle");
+		
+	}
+
+	
+}

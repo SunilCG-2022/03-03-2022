@@ -1,0 +1,62 @@
+package com.cg.Iteminheritance;
+import java.util.Scanner;
+
+public class ItemCrud {
+	
+	Item[] itemList = new Item[4];
+	Item item;
+	int noOfItems;	
+	Scanner sc = new Scanner(System.in);
+	char ch = 'y';
+	public void enterItemDescription() {
+		while (ch == 'y') {
+		System.out.println("Enter the choice :" );
+		System.out.println("add  : to add into Basket");
+		System.out.println("remove : to remove from Basket");
+		sc.nextLine();
+		String choice = sc.nextLine();
+		
+		switch (choice) {
+		case "add":
+			addItemToBasket();
+			break;
+		case "remove":
+			removeItemFromBasket();
+			break;			
+		}
+		System.out.println("do you want to continue....");
+		System.out.println("Enter 'y' to continue ......");
+		ch = sc.next().charAt(0);
+	}
+	}
+		
+
+		void addItemToBasket() {
+			System.out.println("Enter the item to add :");
+			String name = sc.nextLine();
+			for(int i=0;i<noOfItems;i++) {
+				if(itemList[i].itemName == name) {
+				System.out.println("Enter the item you Want to add: ");
+				sc.nextLine();
+				itemList[i].itemName =sc.nextLine();
+				
+			}else {
+				System.out.println("Item not Found");
+			}
+		}
+	}
+		void removeItemFromBasket() {
+			System.out.println("Enter the item to remove : ");
+			System.out.println("Enter the Item name to remove : ");
+			String name = sc.nextLine();
+			for(int i=0; i<noOfItems; i++) {
+				if(itemList[i].itemName == name) {
+					itemList[i]=null;
+					break;
+				}else {
+					System.out.println("Item not found...");
+				}
+				
+			}
+		}
+}

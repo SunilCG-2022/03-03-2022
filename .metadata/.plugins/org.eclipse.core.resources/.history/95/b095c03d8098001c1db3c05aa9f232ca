@@ -1,0 +1,21 @@
+package com.cg.Iteminheritance;
+
+import java.util.Scanner;
+
+public class Book extends Item {
+	String author="Ralph Watt";
+	int pages=300;
+	String genre="Mystery";
+	
+	Scanner sc = new Scanner(System.in); 
+	void enterItemDescription() {
+		System.out.println("Book Description----");
+		System.out.println("Book name : ");
+		name = sc.nextLine();
+		System.out.println("Book description :");
+		description = sc.nextLine();
+		System.out.println("Price : ");
+		price = sc.nextLine();
+		
+}
+}

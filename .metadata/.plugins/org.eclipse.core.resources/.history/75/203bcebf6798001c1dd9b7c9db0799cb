@@ -1,0 +1,21 @@
+package com.cg.classwork;
+
+public class MainInheritance {
+
+	public static void main(String[] args) {
+		Student stu = new Student();
+		stu.readBatch();
+		stu.readYear();
+		stu.readFee();
+		stu.readPersonDetails();
+		stu.printPersonDetails();
+		 
+		Staff stf = new Staff();
+		stf.readSchool();
+		stf.readPay();
+		
+		
+
+	}
+
+}

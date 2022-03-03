@@ -1,0 +1,27 @@
+package com.cg.Iteminheritance;
+
+import java.util.ArrayList;
+
+public class Item {
+	String name;
+	String description;
+	float price;
+	 ArrayList<String> arr = new ArrayList<String>(4);
+	
+	void viewFullDescription() {
+		System.out.println("Item name :" +name);
+		System.out.println("Description :"+description);
+		System.out.println("Price : "+price);
+		
+	}
+	void addToShoppingBasket() {
+			
+		System.out.println("Add into cart" +name.add("bj"));
+		
+	}
+	void removeFromShoppingBasket() {
+		
+	}
+	
+
+}

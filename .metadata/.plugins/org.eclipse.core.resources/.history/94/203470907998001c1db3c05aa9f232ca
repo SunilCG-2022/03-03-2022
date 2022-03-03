@@ -1,0 +1,5 @@
+package com.cg.Iteminheritance;
+
+public class Mp3 extends Item {
+
+}

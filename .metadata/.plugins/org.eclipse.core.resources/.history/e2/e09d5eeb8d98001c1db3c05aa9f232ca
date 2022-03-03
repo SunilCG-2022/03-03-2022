@@ -1,0 +1,28 @@
+package com.cg.Iteminheritance;
+
+import java.util.Scanner;
+
+public class Item {
+	String itemName;
+	String itemDescription;
+	String itemPrice;
+	
+	Scanner sc= new Scanner(System.in);
+	void readItems() {
+		System.out.println("Enter the Item name :");
+		itemName = sc.nextLine();
+		System.out.println("Enter item Description :");
+		itemDescription =  sc.nextLine();
+		System.out.println("Enter the Price : ");
+		itemPrice =  sc.nextLine();
+		
+	}
+	void addItemToBasket() {			
+		System.out.println("Add into cart ");
+	}
+	
+	void removeItemFromBasket() {
+		System.out.println("Add into cart");	
+	}
+	 
+}

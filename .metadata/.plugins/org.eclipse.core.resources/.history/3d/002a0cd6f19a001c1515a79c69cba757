@@ -1,0 +1,13 @@
+package com.blocks;
+
+public abstract class Shape {
+	String color = "red";
+	boolean filled = true;
+
+	abstract void getColor();
+	abstract void getFilled();
+	abstract void setColor();
+	abstract void setFilled();
+	
+
+}

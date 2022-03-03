@@ -1,0 +1,5 @@
+package com.cg.classwork;
+
+public class Student extends Person {
+
+}

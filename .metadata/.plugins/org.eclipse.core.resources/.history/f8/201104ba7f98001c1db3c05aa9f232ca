@@ -1,0 +1,22 @@
+package com.cg.Iteminheritance;
+
+public class MainItem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mp3 mp3=new Mp3();
+		mp3.viewFullDescription();
+		mp3.addToShoppingBasket();
+		
+		Book book=new Book();
+		book.viewFullDescription();
+		book.addToShoppingBasket();
+		
+		Dvd dvd=new Dvd();
+		dvd.viewFullDescription();
+		dvd.addToShoppingBasket();
+		
+
+	}
+
+}

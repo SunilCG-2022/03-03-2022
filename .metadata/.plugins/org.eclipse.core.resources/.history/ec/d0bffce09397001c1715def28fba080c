@@ -1,0 +1,13 @@
+package com.blocks;
+
+public class StringEqual {
+
+	public static void main(String[] a1) {
+		// TODO Auto-generated method stub
+
+		System.out.println(a1.length);
+		System.out.println(a1[1]);
+		System.out.println(a1);
+
+	}
+}

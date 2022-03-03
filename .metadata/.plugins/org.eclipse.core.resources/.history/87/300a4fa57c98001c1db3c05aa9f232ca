@@ -1,0 +1,24 @@
+package com.cg.Iteminheritance;
+
+public class Item {
+	String name;
+	String description;
+	float price;
+	String[] shopingBasket;
+	
+	void viewFullDescription() {
+		System.out.println("Item name :" +name);
+		System.out.println("Description :"+description);
+		System.out.println("Price : "+price);
+		
+	}
+	void addToShoppingBasket() {
+		
+		
+	}
+	void removeFromShoppingBasket() {
+		
+	}
+	
+
+}

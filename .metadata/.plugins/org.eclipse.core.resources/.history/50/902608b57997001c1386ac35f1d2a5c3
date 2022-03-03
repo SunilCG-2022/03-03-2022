@@ -1,0 +1,16 @@
+package com.cg.corejava;
+
+public class MathOperationsMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		MathOperations mo = new MathOperations();
+		mo.readNumbers();
+		mo.addition();
+		mo.division();
+		mo.substraction();
+		mo.multiplication();
+	}
+
+}

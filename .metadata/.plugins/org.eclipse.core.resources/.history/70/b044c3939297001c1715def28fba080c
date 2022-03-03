@@ -1,0 +1,15 @@
+package com.blocks;
+
+public class StringEqual {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		if("String".replace('t', 'T') == "String".replace('t', 'T')) {
+			System.out.println("True");
+		}else {
+			System.out.println("false");
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.cg.bankInheritance;
+
+import java.util.Scanner;
+
+public class Sbi extends Bank {
+	Scanner sc= new Scanner(System.in);
+	void readSbi() {
+		System.out.println("Enter Sbi Pincipal Amount :");
+		principalAmount sc = nextFloat();
+	}
+
+}

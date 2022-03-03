@@ -1,0 +1,17 @@
+package com.cg.Iteminheritance;
+
+import java.util.Scanner;
+
+public class Dvd extends Item {
+
+	Scanner sc = new Scanner(System.in); 
+	void enterItemDescription() {
+		System.out.println("DVD Description----");
+		System.out.println("DVD name : ");
+		name = sc.nextLine();
+		System.out.println("DVD description :");
+		description = sc.nextLine();
+		System.out.println("Price : ");
+		price = sc.nextLine();
+}
+}	
